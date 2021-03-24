@@ -95,9 +95,11 @@ GameObject:
   - component: {fileID: 114000012383132542}
   - component: {fileID: 54000011394381714}
   - component: {fileID: 135000013443234244}
+  - component: {fileID: 1511940847}
+  - component: {fileID: 1511940843}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -161,7 +163,39 @@ SphereCollider:
   m_GameObject: {fileID: 1000012474558828}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &1511940847
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012474558828}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1511940843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012474558828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27130a46b0fb4334da691a172e9028bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button_PutInFire: {fileID: 0}
+  button_Trow: {fileID: 0}
+  button_Take: {fileID: 0}
+  log: 0
+  max_Log: 5
+  collisionTagLog: Log
+  collisionTagFire: Fire

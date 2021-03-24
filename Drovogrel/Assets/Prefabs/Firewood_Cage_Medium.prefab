@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8012490049384477694}
+  - component: {fileID: 5604471856740173318}
   m_Layer: 0
   m_Name: Firewood_Cage_Medium
   m_TagString: Untagged
@@ -34,6 +35,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5604471856740173318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6828657819194734508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76ca991da8a675b4a8cad989370eb476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  distanceToTarget: 3
+  off_Button: {fileID: 0}
 --- !u!1001 &3564048842507869743
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -101,7 +117,28 @@ PrefabInstance:
       propertyPath: m_Name
       value: Firewood_Cage_Min_Right
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 4441543304324843262, guid: 59eb9b07a8ef5b94da6a35d3855f02c1,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441543304324843262, guid: 59eb9b07a8ef5b94da6a35d3855f02c1,
+        type: 3}
+      propertyPath: off_Button
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4830159768599855442, guid: 59eb9b07a8ef5b94da6a35d3855f02c1,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4830159768599855442, guid: 59eb9b07a8ef5b94da6a35d3855f02c1,
+        type: 3}
+      propertyPath: off_Button
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2527230593006809972, guid: 59eb9b07a8ef5b94da6a35d3855f02c1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 59eb9b07a8ef5b94da6a35d3855f02c1, type: 3}
 --- !u!4 &3938899645331580924 stripped
 Transform:
@@ -171,10 +208,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3055836549887560012, guid: a2ad0fce382be5645900d6275452eb4e,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3055836549887560012, guid: a2ad0fce382be5645900d6275452eb4e,
+        type: 3}
+      propertyPath: off_Button
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3265929264321628495, guid: a2ad0fce382be5645900d6275452eb4e,
         type: 3}
       propertyPath: m_Name
       value: Firewood_Cage_Min_Left (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6107768998886051552, guid: a2ad0fce382be5645900d6275452eb4e,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6107768998886051552, guid: a2ad0fce382be5645900d6275452eb4e,
+        type: 3}
+      propertyPath: off_Button
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ad0fce382be5645900d6275452eb4e, type: 3}
@@ -251,6 +308,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Firewood_Cage_Min_Right (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4441543304324843262, guid: 59eb9b07a8ef5b94da6a35d3855f02c1,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4441543304324843262, guid: 59eb9b07a8ef5b94da6a35d3855f02c1,
+        type: 3}
+      propertyPath: off_Button
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4830159768599855442, guid: 59eb9b07a8ef5b94da6a35d3855f02c1,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4830159768599855442, guid: 59eb9b07a8ef5b94da6a35d3855f02c1,
+        type: 3}
+      propertyPath: off_Button
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59eb9b07a8ef5b94da6a35d3855f02c1, type: 3}
 --- !u!4 &7502350959177375040 stripped
@@ -321,10 +398,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3055836549887560012, guid: a2ad0fce382be5645900d6275452eb4e,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3055836549887560012, guid: a2ad0fce382be5645900d6275452eb4e,
+        type: 3}
+      propertyPath: off_Button
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3265929264321628495, guid: a2ad0fce382be5645900d6275452eb4e,
         type: 3}
       propertyPath: m_Name
       value: Firewood_Cage_Min_Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 6107768998886051552, guid: a2ad0fce382be5645900d6275452eb4e,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6107768998886051552, guid: a2ad0fce382be5645900d6275452eb4e,
+        type: 3}
+      propertyPath: off_Button
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2ad0fce382be5645900d6275452eb4e, type: 3}
