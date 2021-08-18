@@ -1,0 +1,351 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.4f1 (becced5a802b) revision 12504301'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 7  (6.1.0) 64bit' Language: 'ru' Physical Memory: 12232 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+E:\Program Files\unityeditor\2020.2.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Users/Adun/Documents/GitHub/drovogrelka/Drovogrel
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62166
+Successfully changed project path to: E:/Users/Adun/Documents/GitHub/drovogrelka/Drovogrel
+E:/Users/Adun/Documents/GitHub/drovogrelka/Drovogrel
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 44.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.4f1 (becced5a802b)
+[Subsystems] Discovering subsystems at path E:/Program Files/unityeditor/2020.2.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Users/Adun/Documents/GitHub/drovogrelka/Drovogrel/Assets
+GfxDevice: creating device client; threaded=0
+d3d11: CreateDXGIFactory2(...) not found, fallbacking to CreateDXGIFactory1(...).
+d3d11: QueryInterface(IDXGIFactory5) failed (80004002).
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 660 Ti (ID=0x1183)
+    Vendor:   
+    VRAM:     1970 MB
+    Driver:   27.21.14.6089
+Initialize mono
+Mono path[0] = 'E:/Program Files/unityeditor/2020.2.4f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Program Files/unityeditor/2020.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/Program Files/unityeditor/2020.2.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Program Files/unityeditor/2020.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003964 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 42.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.030 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003093 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.945 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.7 MB.
+System memory in use after: 71.7 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1576.
+Total: 1.832862 ms (FindLiveObjects: 0.135835 ms CreateObjectMapping: 0.049202 ms MarkObjects: 1.584738 ms  DeleteObjects: 0.061880 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Pack/Realistic Hail Set/Materials/Particle - Med.mat
+  artifactKey: Guid(6075279b93062439193840ae931d0aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Realistic Hail Set/Materials/Particle - Med.mat using Guid(6075279b93062439193840ae931d0aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc37b5fcb50a83f2088f900623b72b86') in 0.196023 seconds
+  Import took 0.198408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.798414 seconds.
+  path: Assets/Pack/_TerrainAutoUpgrade/layer_Cliff_1Cliff_1_normalab77614823f3496d.terrainlayer
+  artifactKey: Guid(1cbd973d44d376d4ca84df6951329669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/_TerrainAutoUpgrade/layer_Cliff_1Cliff_1_normalab77614823f3496d.terrainlayer using Guid(1cbd973d44d376d4ca84df6951329669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4fcb5c7d4f5f4a8e456230e4ed55e7') in 0.099336 seconds
+  Import took 0.102942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Pack/_TerrainAutoUpgrade/layer_Rock_3Rock_3_normalab77614823f3496d.terrainlayer
+  artifactKey: Guid(28af8b409d22505428b87a846e610bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/_TerrainAutoUpgrade/layer_Rock_3Rock_3_normalab77614823f3496d.terrainlayer using Guid(28af8b409d22505428b87a846e610bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2619692a2d2f395a75f0bbb7510bdc') in 0.048173 seconds
+  Import took 0.052450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Pack/_TerrainAutoUpgrade/layer_Rock_2Rock_2_normal3d1cca0d6d0e9938.terrainlayer
+  artifactKey: Guid(594c55fc6a52be2449247429cf1904fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/_TerrainAutoUpgrade/layer_Rock_2Rock_2_normal3d1cca0d6d0e9938.terrainlayer using Guid(594c55fc6a52be2449247429cf1904fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31390d2998c78bb11aa87a7d50abb484') in 0.066078 seconds
+  Import took 0.069098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Pack/_TerrainAutoUpgrade/layer_Snow_2Snow_2_normal3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(e9f01175ccb22a74f8d89facc74090a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/_TerrainAutoUpgrade/layer_Snow_2Snow_2_normal3d3aba195e4d26ee.terrainlayer using Guid(e9f01175ccb22a74f8d89facc74090a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a7eacada6addced192b46d9c141597') in 0.052096 seconds
+  Import took 0.054182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Pack/_TerrainAutoUpgrade/layer_Snow_1Snow_1_normal3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(47043b328f8f63947943b553992bf03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/_TerrainAutoUpgrade/layer_Snow_1Snow_1_normal3d3aba195e4d26ee.terrainlayer using Guid(47043b328f8f63947943b553992bf03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a6d3974fb84203d8c026b021cf8813') in 0.055761 seconds
+  Import took 0.058223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Pack/_TerrainAutoUpgrade/layer_Snow_1Snow_1_normal3d1cca0d6d0e9938.terrainlayer
+  artifactKey: Guid(2d8fff99958bcdd488358ce2f3a77113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/_TerrainAutoUpgrade/layer_Snow_1Snow_1_normal3d1cca0d6d0e9938.terrainlayer using Guid(2d8fff99958bcdd488358ce2f3a77113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed9ffd7d7fd0c0daa7fbb0fcb4b6f7c') in 0.048806 seconds
+  Import took 0.051233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Pack/_TerrainAutoUpgrade/layer_Rock_1Rock_1_normal3d1cca0d6d0e9938.terrainlayer
+  artifactKey: Guid(40d8dcb58ce3e8a49b87fcc3cde4523f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/_TerrainAutoUpgrade/layer_Rock_1Rock_1_normal3d1cca0d6d0e9938.terrainlayer using Guid(40d8dcb58ce3e8a49b87fcc3cde4523f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fcc5b8fbcf3a942db7cc7fd8e1fa8d') in 0.050756 seconds
+  Import took 0.053769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Pack/_TerrainAutoUpgrade/layer_Snow_2Snow_2_normal3d1cca0d6d0e9938.terrainlayer
+  artifactKey: Guid(d97176015d9989446b8fc2648aaa0f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/_TerrainAutoUpgrade/layer_Snow_2Snow_2_normal3d1cca0d6d0e9938.terrainlayer using Guid(d97176015d9989446b8fc2648aaa0f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460385f59c0930975dfc6c7cc57964d3') in 0.050396 seconds
+  Import took 0.053093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.652418 seconds.
+  path: Assets/Pack/Winter Zone Mini 1.0/Weather FX
+  artifactKey: Guid(299b5c4719c9a4e4ca8ea4426a9ad28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Winter Zone Mini 1.0/Weather FX using Guid(299b5c4719c9a4e4ca8ea4426a9ad28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c553a6e7d453755c32f45a8e67ef8e0') in 0.028988 seconds
+  Import took 0.031721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.116165 seconds.
+  path: Assets/Pack/Winter Zone Mini 1.0/Weather FX/Blizzard_prefab.prefab
+  artifactKey: Guid(11b105291192b7d4dac8bb10b6228dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Winter Zone Mini 1.0/Weather FX/Blizzard_prefab.prefab using Guid(11b105291192b7d4dac8bb10b6228dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ad0dab0acd4fb9d3ca2124ebecb439') in 0.038609 seconds
+  Import took 0.041029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Pack/Winter Zone Mini 1.0/Weather FX/Snow_HeavyStorm_prefab.prefab
+  artifactKey: Guid(17504871f215feb46b405f6f12366160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Winter Zone Mini 1.0/Weather FX/Snow_HeavyStorm_prefab.prefab using Guid(17504871f215feb46b405f6f12366160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf659eae7f27dba271b66eb2e513360') in 0.031840 seconds
+  Import took 0.034090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Pack/Winter Zone Mini 1.0/Weather FX/Snow_LightWind_prefab.prefab
+  artifactKey: Guid(7168c0190d7d71f49ac1cd677d6c5883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Winter Zone Mini 1.0/Weather FX/Snow_LightWind_prefab.prefab using Guid(7168c0190d7d71f49ac1cd677d6c5883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148ff0ccbbc736b122ce1ab010bbf24a') in 0.033243 seconds
+  Import took 0.035639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.827821 seconds.
+  path: Assets/Pack/Particle Ingredient Pack/Particle-Material/Material-SmokeBundle/Material-Smoke(Additive).mat
+  artifactKey: Guid(79cf8590e4444b2429db788e644a2470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Particle Ingredient Pack/Particle-Material/Material-SmokeBundle/Material-Smoke(Additive).mat using Guid(79cf8590e4444b2429db788e644a2470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe843bc7688f6db79d9abc58047c3470') in 0.082098 seconds
+  Import took 0.085253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016078 seconds.
+  path: Assets/Pack/Particle Ingredient Pack/Particle-Material/Material-SmokeBundle/Material-Smoke(Additive).mat
+  artifactKey: Guid(79cf8590e4444b2429db788e644a2470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Particle Ingredient Pack/Particle-Material/Material-SmokeBundle/Material-Smoke(Additive).mat using Guid(79cf8590e4444b2429db788e644a2470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe843bc7688f6db79d9abc58047c3470') in 0.033650 seconds
+  Import took 0.036008 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000580 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.863 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1094 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.0 MB.
+System memory in use after: 75.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1622.
+Total: 2.004014 ms (FindLiveObjects: 0.142174 ms CreateObjectMapping: 0.052825 ms MarkObjects: 1.793621 ms  DeleteObjects: 0.013885 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 308.861840 seconds.
+  path: Assets/Pack/Winter Zone Mini 1.0/Weather FX/Materials/SmokeMat.mat
+  artifactKey: Guid(1db8960caac2da245b642e1e0daa4a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Winter Zone Mini 1.0/Weather FX/Materials/SmokeMat.mat using Guid(1db8960caac2da245b642e1e0daa4a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6e6413468f809e67a7af9687b017a4') in 0.103013 seconds
+  Import took 0.105712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.345415 seconds.
+  path: Assets/Pack/Winter Zone Mini 1.0/Weather FX/Materials/SnowMat.mat
+  artifactKey: Guid(1e85ac3b38a53ea47ba281728df2c893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Winter Zone Mini 1.0/Weather FX/Materials/SnowMat.mat using Guid(1e85ac3b38a53ea47ba281728df2c893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf0ae8ad4a2dbd9acf35077c5df9bde') in 0.038031 seconds
+  Import took 0.040864 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000726 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.975 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1094 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.1 MB.
+System memory in use after: 75.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1625.
+Total: 1.967791 ms (FindLiveObjects: 0.146701 ms CreateObjectMapping: 0.045278 ms MarkObjects: 1.755889 ms  DeleteObjects: 0.018111 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000679 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.071 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1094 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.1 MB.
+System memory in use after: 75.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1627.
+Total: 2.682282 ms (FindLiveObjects: 0.248427 ms CreateObjectMapping: 0.061578 ms MarkObjects: 2.350543 ms  DeleteObjects: 0.020224 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000792 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.844 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1094 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.1 MB.
+System memory in use after: 75.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1629.
+Total: 1.621866 ms (FindLiveObjects: 0.146400 ms CreateObjectMapping: 0.045580 ms MarkObjects: 1.415095 ms  DeleteObjects: 0.013282 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000838 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.873 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1094 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.1 MB.
+System memory in use after: 75.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1631.
+Total: 1.819883 ms (FindLiveObjects: 0.155455 ms CreateObjectMapping: 0.048900 ms MarkObjects: 1.596208 ms  DeleteObjects: 0.018111 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000630 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.905 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1094 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.2 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1633.
+Total: 1.717252 ms (FindLiveObjects: 0.227599 ms CreateObjectMapping: 0.059767 ms MarkObjects: 1.413586 ms  DeleteObjects: 0.014791 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
