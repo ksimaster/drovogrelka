@@ -1,0 +1,298 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.16f1 (049d6eca3c44) revision 302446'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 7  (6.1.0) 64bit' Language: 'ru' Physical Memory: 8075 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/kycaka/Documents/GitHub/drovogrelka/Drovogrel
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61840
+Successfully changed project path to: C:/Users/kycaka/Documents/GitHub/drovogrelka/Drovogrel
+C:/Users/kycaka/Documents/GitHub/drovogrelka/Drovogrel
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 46.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.16f1 (049d6eca3c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kycaka/Documents/GitHub/drovogrelka/Drovogrel/Assets
+GfxDevice: creating device client; threaded=0
+d3d11: CreateDXGIFactory2(...) not found, fallbacking to CreateDXGIFactory1(...).
+d3d11: QueryInterface(IDXGIFactory5) failed (80004002).
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   
+    VRAM:     2977 MB
+    Driver:   27.21.14.6140
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001149 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.355 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1355ms)
+		BeginReloadAssembly (47ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (450ms)
+			LoadAssemblies (45ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (181ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (168ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004191 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.133 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1133ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (933ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (385ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (319ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1420 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.1 MB.
+System memory in use after: 81.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1888.
+Total: 3.598696 ms (FindLiveObjects: 0.192169 ms CreateObjectMapping: 0.055426 ms MarkObjects: 3.276349 ms  DeleteObjects: 0.072929 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Pack/Winter Zone Mini 1.0/Audio/footstepsSnow_04.mp3
+  artifactKey: Guid(d4841e699c05b4a4c8573ee8428daecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Winter Zone Mini 1.0/Audio/footstepsSnow_04.mp3 using Guid(d4841e699c05b4a4c8573ee8428daecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140801f7446e1bc4d4aa4aec2d2319fb') in 0.104088 seconds 
+  Import took 0.112931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Pack/Winter Zone Mini 1.0/Audio/footstepsSnow_01.mp3
+  artifactKey: Guid(9c41ac41117eaa148a76bccb57ea30f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Winter Zone Mini 1.0/Audio/footstepsSnow_01.mp3 using Guid(9c41ac41117eaa148a76bccb57ea30f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a471644b9f92824e50cb9311a25d7b23') in 0.009650 seconds 
+  Import took 0.012461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Pack/Winter Zone Mini 1.0/Audio/footstepsSnow_02.mp3
+  artifactKey: Guid(e0c8cd84682debf4283b23f915cfbd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Winter Zone Mini 1.0/Audio/footstepsSnow_02.mp3 using Guid(e0c8cd84682debf4283b23f915cfbd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeeeb40a61e92ab4752a3fa4dd34cb2b') in 0.009219 seconds 
+  Import took 0.012580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Pack/Winter Zone Mini 1.0/Audio/footstepsSnow_03.mp3
+  artifactKey: Guid(b012d22e5c7b2784389faf2121274ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Winter Zone Mini 1.0/Audio/footstepsSnow_03.mp3 using Guid(b012d22e5c7b2784389faf2121274ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae38c6d5a263451df1332beb9097c784') in 0.013826 seconds 
+  Import took 0.016773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Pack/Winter Zone Mini 1.0/Audio/footstepsSnow_05.mp3
+  artifactKey: Guid(e2cb069505d1dd945890496794596355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Winter Zone Mini 1.0/Audio/footstepsSnow_05.mp3 using Guid(e2cb069505d1dd945890496794596355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0354059cea8fc565f41debf22e3a0de3') in 0.008619 seconds 
+  Import took 0.011318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Pack/Winter Zone Mini 1.0/Audio/jump_snow.wav
+  artifactKey: Guid(c57d4d675b24db2449a349e796de6397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Winter Zone Mini 1.0/Audio/jump_snow.wav using Guid(c57d4d675b24db2449a349e796de6397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e393731be5449e73b98843891855f138') in 0.011580 seconds 
+  Import took 0.014322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Pack/Winter Zone Mini 1.0/Audio/Blizzard_short.wav
+  artifactKey: Guid(ec8eb4f2a9df6ec4b8c4575789274b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Winter Zone Mini 1.0/Audio/Blizzard_short.wav using Guid(ec8eb4f2a9df6ec4b8c4575789274b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f81ef3fca29f26fb54003226a00b9a') in 0.006929 seconds 
+  Import took 0.009634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Pack/Winter Zone Mini 1.0/Audio/Blizzard_long.wav
+  artifactKey: Guid(64b8d4fd416c27a4e9b150960886ec14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Winter Zone Mini 1.0/Audio/Blizzard_long.wav using Guid(64b8d4fd416c27a4e9b150960886ec14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a182b04986ccb04e4fa0137fb91d1a') in 0.007673 seconds 
+  Import took 0.010822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Pack/Winter Zone Mini 1.0/Audio/land_snow.wav
+  artifactKey: Guid(333b3f48a228328459fcb29d8291cce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Winter Zone Mini 1.0/Audio/land_snow.wav using Guid(333b3f48a228328459fcb29d8291cce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ebf249a23d85af376220ee355b7280') in 0.012705 seconds 
+  Import took 0.016506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Pack/Winter Zone Mini 1.0/Audio/Blizzard_long.wav
+  artifactKey: Guid(64b8d4fd416c27a4e9b150960886ec14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Winter Zone Mini 1.0/Audio/Blizzard_long.wav using Guid(64b8d4fd416c27a4e9b150960886ec14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a182b04986ccb04e4fa0137fb91d1a') in 0.006571 seconds 
+  Import took 0.009102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Pack/Winter Zone Mini 1.0/Audio/Blizzard_medium.wav
+  artifactKey: Guid(02bfcc2d69fc71a49ae920c9c0f5f3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pack/Winter Zone Mini 1.0/Audio/Blizzard_medium.wav using Guid(02bfcc2d69fc71a49ae920c9c0f5f3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f798ca64c93ace0e8c3ab331edf5442b') in 0.008521 seconds 
+  Import took 0.011492 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.5 MB.
+System memory in use after: 56.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1897.
+Total: 3.447368 ms (FindLiveObjects: 0.152058 ms CreateObjectMapping: 0.044122 ms MarkObjects: 3.236602 ms  DeleteObjects: 0.013492 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002808 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.960 seconds
+Domain Reload Profiling:
+	ReloadAssembly (960ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (811ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (274ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (324ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1415 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.3 MB.
+System memory in use after: 84.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1899.
+Total: 3.168049 ms (FindLiveObjects: 0.208213 ms CreateObjectMapping: 0.046675 ms MarkObjects: 2.873779 ms  DeleteObjects: 0.038653 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

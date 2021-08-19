@@ -6883,6 +6883,102 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27130a46b0fb4334da691a172e9028bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &1511940848
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511940842}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 64b8d4fd416c27a4e9b150960886ec14, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1541478968
 GameObject:
   m_ObjectHideFlags: 0
@@ -7327,6 +7423,18 @@ PrefabInstance:
       propertyPath: button_PutInFire
       value: 
       objectReference: {fileID: 443872882}
+    - target: {fileID: 1511940847, guid: ad24f1bf2b5cb704b9ca71ca4f8e01f3, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1511940847, guid: ad24f1bf2b5cb704b9ca71ca4f8e01f3, type: 3}
+      propertyPath: m_Size.y
+      value: 1.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 1511940847, guid: ad24f1bf2b5cb704b9ca71ca4f8e01f3, type: 3}
+      propertyPath: m_Size.z
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1000012474558828, guid: ad24f1bf2b5cb704b9ca71ca4f8e01f3, type: 3}
       propertyPath: m_Name
       value: Player
@@ -7341,7 +7449,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012328382240, guid: ad24f1bf2b5cb704b9ca71ca4f8e01f3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 49.903
+      value: 49.985
       objectReference: {fileID: 0}
     - target: {fileID: 4000012328382240, guid: ad24f1bf2b5cb704b9ca71ca4f8e01f3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7375,11 +7483,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4000013590501678, guid: ad24f1bf2b5cb704b9ca71ca4f8e01f3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.137
+      objectReference: {fileID: 0}
     - target: {fileID: 114000012383132542, guid: ad24f1bf2b5cb704b9ca71ca4f8e01f3,
         type: 3}
       propertyPath: leftController
       value: 
       objectReference: {fileID: 1815413250}
+    - target: {fileID: 114000012383132542, guid: ad24f1bf2b5cb704b9ca71ca4f8e01f3,
+        type: 3}
+      propertyPath: speedMovements
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 114000012383132542, guid: ad24f1bf2b5cb704b9ca71ca4f8e01f3,
         type: 3}
       propertyPath: rightController
@@ -7388,7 +7505,7 @@ PrefabInstance:
     - target: {fileID: 185754502478763761, guid: ad24f1bf2b5cb704b9ca71ca4f8e01f3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4260845671025120444, guid: ad24f1bf2b5cb704b9ca71ca4f8e01f3,
         type: 3}
